@@ -8,6 +8,97 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="page">
+    <header>
+
+      <div class="hero">
+
+      <h1>avalie a sua mentoria</h1>
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+      <img src="img/img-1.png" alt="">
   
+      </div>
+
+    </header>
+  
+    <form id="my-form">
+      <fieldset>
+
+        <div class="fieldset-wrapper">
+          <legend>Informações pessoais</legend>
+
+          <div class="col-2">
+
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input type="text" id="name"/>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="surname">Sobrenome</label>
+              <input type="text" id="surname"/>
+            </div>
+
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email">Email <span>(digite um email válido)</span></label>
+            <input type="email" id="email">
+          </div>
+
+        </div>
+
+        <div class="fieldset-wrapper">
+
+          <legend class="subtitle">Informações do mentor</legend>
+
+          <div class="line"></div>
+
+          <div class="input-wrapper">
+            <label for="your-mentor">Selecione quem foi o seu mentor</label>
+            <input type="text" id="your-mentor">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="feedback">Feedback sobre o mentor</label>
+            <textarea cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox"/>
+            <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+          </div>
+
+        </div>
+
+        <div class="fieldset-wrapper">
+          <legend class="subtitle">Agendando próxima mentoria</legend>
+
+          <div class="line"></div>
+
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" id="date">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mentoring-begin">Das</label>
+              <input type="time" id="mentoring-begin">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mentoring-end">Até</label>
+              <input type="time" id="mentoring-end">
+            </div>
+
+          </div>
+        </div>
+      </fieldset>
+  
+    </form>
+
+  </div>
 </body>
 </html>
